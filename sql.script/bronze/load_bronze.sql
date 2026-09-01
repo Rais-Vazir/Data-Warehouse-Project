@@ -1,4 +1,4 @@
---This scripts insert and load data into the 'bronze' schema from source, use store procedure to load the data
+--This scripts bulk insert and load data into the 'bronze' schema from source, use store procedure to load the data
 --this scripts truncates the bronze table before loadind data.
 
 create or alter procedure bronze.load_bronze as
