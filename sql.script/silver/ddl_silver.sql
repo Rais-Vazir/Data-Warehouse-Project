@@ -1,3 +1,4 @@
+--DDL Script:- This script Create 'Silver' Tables
 --This Sripts Create Tables in 'Silver' schema
 
 if OBJECT_ID('silver.crm_cust_info','u') is not null
