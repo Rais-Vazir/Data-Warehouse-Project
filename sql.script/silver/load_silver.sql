@@ -1,3 +1,7 @@
+--Script Purpose:- 
+--clean and load the data into silver Tables (Bronze --> Silver)
+--This stored procedure proform ETL (Extract, Transform, Load) process to populate 'silver' schema tables from 'bronze' schema.
+
 create or alter procedure silver.load_silver as
 Begin
   declare @start_time datetime, @end_time datetime, @batch_start_time datetime, @batch_end_time datetime;
